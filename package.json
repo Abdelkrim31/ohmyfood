@@ -1,0 +1,22 @@
+{
+  "name": "1-code-ohmyfood",
+  "version": "1.0.0",
+  "description": "Mon projet OpenClassrooms Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdelkrim31/ohmyfood.git"
+  },
+  "author": "Abdelkrim HAMMAOUI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdelkrim31/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Abdelkrim31/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}
