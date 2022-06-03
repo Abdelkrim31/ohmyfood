@@ -1,0 +1,29 @@
+/*RECHERCHE*/
+.search {
+    background: #fafafa;
+    width: 100%;
+  }
+  .search-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .search-title {
+    text-align: center;
+    max-width: 250px;
+    margin: 0;
+  }
+  .search-text {
+    text-align: center;
+  }
+  .search-button {
+    opacity: 1;
+    background: #9356DC;
+    color: white;
+    padding: 0 20px;
+    border-radius: 200px;
+  }
