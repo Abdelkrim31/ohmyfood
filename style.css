@@ -83,7 +83,7 @@ body {
 
 .search-button {
   opacity: 1;
-  background: #9356DC;
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
   color: white;
   padding: 0 20px;
   border-radius: 200px;
@@ -224,12 +224,10 @@ body {
   font-weight: 700;
 }
 
-.restaurant-block-hearth {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  width: 30px;
+.coeur {
+  color: black;
+  margin-top: 20px;
+  font-size: 150%;
 }
 
 /*FOOTER*/
@@ -276,6 +274,12 @@ body {
 .footer-bloc-link-title {
   font-size: 16px;
   font-weight: 400;
+}
+
+/* coeur*/
+.coeur__filtre, .coeur {
+  height: 48px;
+  width: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */

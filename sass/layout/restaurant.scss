@@ -68,10 +68,8 @@
   .restaurant-block-info > :first-child {
     font-weight: 700;
   }
-  .restaurant-block-hearth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    width: 30px;
+  .coeur{
+    color: black;
+    margin-top: 20px;
+    font-size: 150%;
   }
