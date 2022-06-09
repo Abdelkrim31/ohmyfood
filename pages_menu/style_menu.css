@@ -1,0 +1,109 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  * a {
+    text-decoration: none;
+    color: white;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* NAVBAR : HEADER */
+  header {
+    z-index: 10;
+    background: white;
+    width: 100%;
+  }
+  header .header {
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+  header .header-arrow-back {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 35px;
+    top: 40%;
+    font-size: 20px;
+  }
+  header .header-arrow-back a {
+    color: #000;
+  }
+  header .header-logo {
+    font-family: 'Shrikhand', cursive;
+    margin: 0;
+  }
+  header .header-logo a {
+    color: #000;
+  }
+
+
+
+
+
+  /*FOOTER*/
+.footer {
+    width: 100%;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-bloc {
+    display: inline;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .footer-bloc .logo {
+    font-family: "Shrikhand", cursive;
+    color: white;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  
+  .footer-bloc-links {
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+  }
+  
+  .footer-bloc-link {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+  }
+  .footer-bloc-link i {
+    margin-right: 7px;
+  }
+  
+  .footer-bloc-link-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
