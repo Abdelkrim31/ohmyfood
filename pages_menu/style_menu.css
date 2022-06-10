@@ -94,6 +94,12 @@
 .menu-header-title {
   font-family: 'Shrikhand', cursive;
 }
+.coeur {
+  color: black;
+  margin-top: 20px;
+  font-size: 180%;
+}
+
 
 /*FOOTER*/
 .footer {
