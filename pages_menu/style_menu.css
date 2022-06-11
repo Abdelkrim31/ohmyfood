@@ -70,7 +70,7 @@
     object-fit: cover;
   }
   /* MENU */
-  #menu {
+  #menus {
   background: white;
   width: 100%;
   display: flex;
@@ -96,10 +96,78 @@
 }
 .coeur {
   color: black;
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 180%;
 }
-
+.menu-grid {
+  display: grid;
+  grid-gap: 40px;
+}
+.menu-grid-bloc {
+  display: grid;
+  grid-gap: 15px;
+}
+.menu-grid-title h3 {
+  position: relative;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.menu-grid-title h3::after {
+  content: '';
+  width: 50px;
+  height: 4px;
+  background: #99e2d0;
+  position: absolute;
+  z-index: 20;
+  left: 0px;
+  bottom: -8px;
+}
+.menu-grid-case {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.menu-grid-case .validation-box {
+  display: none;
+  position: absolute;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  right: 0px;
+  padding: 0 13px;
+  height: 100%;
+}
+.menu-grid-case .validation-box i {
+  font-size: 30px;
+  color: white;
+}
+.menu-case-dish {
+  margin-left: 20px;
+}
+.menu-case-dish p {
+  margin: 0;
+}
+.menu-case-dish-title {
+  font-weight: bold;
+}
+.menu-case-price {
+  padding-right: 20px;
+  font-weight: bold;
+  padding-left: 7px;
+} 
+.dish-and-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*FOOTER*/
 .footer {
@@ -109,7 +177,6 @@
     justify-content: center;
     align-items: center;
   }
-  
   .footer-bloc {
     display: inline;
     padding: 0 40px;
@@ -122,13 +189,11 @@
     font-size: 20px;
     padding: 15px 0;
   }
-  
   .footer-bloc-links {
     display: inline-flex;
     flex-direction: column;
     width: auto;
   }
-  
   .footer-bloc-link {
     display: inline-flex;
     align-items: center;
@@ -141,7 +206,6 @@
   .footer-bloc-link i {
     margin-right: 7px;
   }
-  
   .footer-bloc-link-title {
     font-size: 16px;
     font-weight: 400;
