@@ -1,4 +1,6 @@
 /*RECHERCHE*/
+@use "../utils/linear-gradient";
+
 .search {
     background: #fafafa;
     width: 100%;
@@ -22,8 +24,8 @@
   }
   .search-button {
     opacity: 1;
-    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
     color: white;
     padding: 0 20px;
     border-radius: 200px;
+    @include linear-gradient.gradient;
   }

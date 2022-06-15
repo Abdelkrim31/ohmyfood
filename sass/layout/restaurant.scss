@@ -68,8 +68,35 @@
   .restaurant-block-info > :first-child {
     font-weight: 700;
   }
-  .coeur{
+  .heart{
     color: black;
     margin-top: 20px;
     font-size: 150%;
   }
+  .heart-regular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    right: 20px;
+  }
+  
+  /*En utilisant MIXIN pour importer linear-gradient l'animsation du coeur ne s'affiche pas correctement */
+  .heart-solid {
+    position: absolute;
+    top: 220px;
+    right: 20px;
+    color: transparent;
+    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+  &:hover{
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  }
+
+
