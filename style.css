@@ -239,7 +239,6 @@ body {
   right: 20px;
 }
 
-/*En utilisant MIXIN pour importer linear-gradient l'animsation du coeur ne s'affiche pas correctement */
 .heart-solid {
   position: absolute;
   top: 220px;
