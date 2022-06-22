@@ -391,10 +391,36 @@ header .header2-logo a {
   font-family: "Shrikhand", cursive;
 }
 
-.heart {
+.heart2 {
   color: black;
-  margin-top: 0px;
-  font-size: 180%;
+  margin-top: 20px;
+  font-size: 150%;
+}
+
+.heart2-regular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 215px;
+  right: 30px;
+}
+
+.heart2-solid {
+  position: absolute;
+  top: 215px;
+  right: 30px;
+  color: transparent;
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  /*@include linear-gradient.gradient;*/
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+.heart2-solid:hover {
+  opacity: 1;
+  transform: scale(1.15);
 }
 
 .menu-grid {
