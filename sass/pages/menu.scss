@@ -142,3 +142,37 @@
     padding-left: 50px;
     padding-right: 50px;
     }
+
+
+    @media screen and (min-width: 1230px) {
+        .menu {
+          margin-top: -60px;
+        }
+        .menu-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 1fr;
+        }
+        .img2-image {
+          margin-top: 0;
+        }
+        .footer-bloc {
+          margin-bottom: 15px;
+        }
+        .footer-bloc-links {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          max-width: 900px;
+        }
+        .heart2-regular {
+          top: 430px;
+          right: 200px;
+          }
+        .heart2-solid {
+          top: 430px;
+          right: 200px;
+          }
+      }
+
+ 
