@@ -30,6 +30,13 @@
     position: relative;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
   }
+  .fonctionnement-step:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    background: white;
+  }
   .fonctionnement-number {
     background-color: #9356DC;
     color: white;
