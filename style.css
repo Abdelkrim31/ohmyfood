@@ -433,7 +433,6 @@ header .header2-logo a {
   right: 30px;
   color: transparent;
   background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-  /*@include linear-gradient.gradient;*/
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
@@ -534,7 +533,6 @@ header .header2-logo a {
 
 .menu-button {
   opacity: 1;
-  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
   color: white;
   border-radius: 200px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -543,6 +541,7 @@ header .header2-logo a {
   font-size: 18px;
   padding-left: 50px;
   padding-right: 50px;
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
 }
 
 @media screen and (min-width: 1230px) {
