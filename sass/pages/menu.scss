@@ -1,5 +1,7 @@
 /* PAGE MENU RESTAURANT */
 @use "../utils/linear-gradient";
+@use "../utils/animations";
+
 #menus {
     background: white;
     width: 100%;
@@ -77,6 +79,13 @@
     bottom: -8px;
     }
     .menu-grid-case {
+      
+      $numberOfItems: 4;
+      @for $i from 2 through $numberOfItems {
+        &:nth-child(#{$i}) {
+          animation-delay: 100ms * $i;
+        }
+      }
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -88,6 +97,8 @@
     border-radius: 15px;
     background-color: white;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    animation: appear 1s;
+    animation-fill-mode: both;
     }
     .menu-grid-case .validation-box {
     display: none;
