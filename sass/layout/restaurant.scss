@@ -1,5 +1,6 @@
  /*RESTAURANTS*/ 
  @use "../utils/linear-gradient";
+
  .restaurants {
     padding: 25px 0;
     width: 100%;
@@ -8,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+  } 
   .restaurant-cards {
     width: 95%;
     max-width: 1200px;
@@ -104,4 +105,22 @@
   }
   }
 
-
+  @media screen and (min-width: 900px) {
+    /*
+    .restaurant-cards {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    */
+    .fonctionnement-step {
+      width: 100%;
+    }
+    .fonctionnement-steps {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+    }
+  }

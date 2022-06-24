@@ -79,7 +79,7 @@
     bottom: -8px;
     }
     .menu-grid-case {
-      
+      /*revoir animation 1 à 3 au lieu de 2 à 4 : div à rajouter pour chaque menu-grid-case */
       $numberOfItems: 4;
       @for $i from 2 through $numberOfItems {
         &:nth-child(#{$i}) {
@@ -152,7 +152,6 @@
     @include linear-gradient.gradient;
     }
 
-
     @media screen and (min-width: 1230px) {
         .menu {
           margin-top: -60px;
@@ -165,15 +164,6 @@
         .img2-image {
           margin-top: 0;
         }
-        .footer-bloc {
-          margin-bottom: 15px;
-        }
-        .footer-bloc-links {
-          display: flex;
-          justify-content: space-between;
-          flex-direction: row;
-          max-width: 900px;
-        }
         .heart2-regular {
           top: 430px;
           right: 200px;
@@ -181,6 +171,15 @@
         .heart2-solid {
           top: 430px;
           right: 200px;
+          }
+          .footer-bloc {
+            margin-bottom: 15px;
+          }
+          .footer-bloc-links {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 900px;
           }
       }
 
