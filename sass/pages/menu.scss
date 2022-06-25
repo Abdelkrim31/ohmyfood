@@ -83,7 +83,7 @@
       $numberOfItems: 4;
       @for $i from 2 through $numberOfItems {
         &:nth-child(#{$i}) {
-          animation-delay: 100ms * $i;
+          animation-delay: 200ms * $i;
         }
       }
     position: relative;
