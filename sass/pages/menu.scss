@@ -115,9 +115,13 @@
     }
     .menu-case-dish {
     margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
     }
     .menu-case-dish p {
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
     }
     .menu-case-dish-title {
     font-weight: bold;
