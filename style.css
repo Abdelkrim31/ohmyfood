@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* GENERAL */
 * {
   box-sizing: border-box;
@@ -412,6 +411,14 @@ header .header2-logo a {
     opacity: 1;
   }
 }
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* PAGE MENU RESTAURANT */
 #menus {
   background: white;
@@ -500,7 +507,6 @@ header .header2-logo a {
 }
 
 .menu-grid-case {
-  /*revoir animation 1 à 3 au lieu de 2 à 4 : div à rajouter pour chaque menu-grid-case */
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -535,9 +541,34 @@ header .header2-logo a {
   height: 100%;
 }
 
+.menu-grid-case:hover .validation-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slide-left 0.5s ease;
+  transform-origin: right;
+}
+
+.menu-grid-case:hover .menu-case-price {
+  padding-right: 70px;
+  transition: 0.5s ease;
+}
+
+.menu-grid-case .validation-box {
+  display: none;
+  position: absolute;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  right: 0px;
+  padding: 0 13px;
+  height: 100%;
+}
+
 .menu-grid-case .validation-box i {
   font-size: 30px;
   color: white;
+  transform: rotate(180deg);
+  animation: rotate 0.5s both;
 }
 
 .menu-case-dish {

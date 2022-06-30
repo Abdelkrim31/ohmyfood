@@ -79,7 +79,6 @@
     bottom: -8px;
     }
     .menu-grid-case {
-      /*revoir animation 1 à 3 au lieu de 2 à 4 : div à rajouter pour chaque menu-grid-case */
       $numberOfItems: 4;
       @for $i from 2 through $numberOfItems {
         &:nth-child(#{$i}) {
@@ -109,9 +108,31 @@
     padding: 0 13px;
     height: 100%;
     }
+    .menu-grid-case:hover .validation-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide-left 0.5s ease;
+    transform-origin: right;
+    }
+    .menu-grid-case:hover .menu-case-price {
+    padding-right: 70px;
+    transition: 0.5s ease;
+    }
+    .menu-grid-case .validation-box {
+    display: none;
+    position: absolute;
+    background: #99E2D0;
+    border-radius: 0 15px 15px 0;
+    right: 0px;
+    padding: 0 13px;
+    height: 100%;
+    }
     .menu-grid-case .validation-box i {
     font-size: 30px;
     color: white;
+    transform: rotate(180deg);
+    animation: rotate 0.5s both;
     }
     .menu-case-dish {
     margin-left: 20px;
