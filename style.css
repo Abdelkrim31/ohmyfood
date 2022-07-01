@@ -560,7 +560,7 @@ header .header2-logo a {
   font-size: 30px;
   color: white;
   transform: rotate(180deg);
-  animation: rotate 0.5s both;
+  animation: rotate 0.6s both;
 }
 
 .menu-case-dish {
