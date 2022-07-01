@@ -338,14 +338,6 @@ header .header2-logo a {
 }
 
 @media screen and (min-width: 900px) {
-  /*
-  .restaurant-cards {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
-  */
   .fonctionnement-step {
     width: 100%;
   }
