@@ -192,6 +192,12 @@
           grid-template-columns: repeat(3, 1fr);
           grid-template-rows: 1fr;
         }
+        .desktop-menu-bloc {
+          display: flex;
+          flex-direction: column;
+          align-content: space-between;
+          align-items: center;
+          }
         .img2-image {
           margin-top: 0;
         }

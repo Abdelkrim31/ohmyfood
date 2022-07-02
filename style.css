@@ -630,6 +630,13 @@ header .header2-logo a {
     grid-template-rows: 1fr;
   }
 
+  .desktop-menu-bloc {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+  }
+
   .img2-image {
     margin-top: 0;
   }
