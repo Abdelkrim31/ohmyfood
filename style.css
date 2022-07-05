@@ -416,7 +416,7 @@ header .header2-logo a {
     transform: scaleX(0);
   }
   100% {
-    transform: scaleX(-50px);
+    transform: scaleX(1);
   }
 }
 /* PAGE MENU RESTAURANT */
@@ -529,6 +529,9 @@ header .header2-logo a {
 }
 .menu-grid-case:nth-child(4) {
   animation-delay: 800ms;
+}
+.menu-grid-case:nth-child(5) {
+  animation-delay: 1000ms;
 }
 
 .menu-grid-case .validation-box {
