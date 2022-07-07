@@ -529,13 +529,13 @@ header .header2-logo a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 190px;
+  top: 215px;
   right: 30px;
 }
 
 .heart2-solid {
   position: absolute;
-  top: 190px;
+  top: 215px;
   right: 30px;
   color: transparent;
   background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
@@ -724,12 +724,12 @@ header .header2-logo a {
   }
 
   .heart2-regular {
-    top: 400px;
+    top: 430px;
     right: 200px;
   }
 
   .heart2-solid {
-    top: 400px;
+    top: 430px;
     right: 200px;
   }
 
