@@ -36,12 +36,12 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 215px;
+        top: 190px;
         right: 30px;
       }
     .heart2-solid {
         position: absolute;
-        top: 215px;
+        top: 190px;
         right: 30px;
         color: transparent;
         @include linear-gradient.gradient;
@@ -203,11 +203,11 @@
           margin-top: 0;
         }
         .heart2-regular {
-          top: 430px;
+          top: 400px;
           right: 200px;
           }
         .heart2-solid {
-          top: 430px;
+          top: 400px;
           right: 200px;
           }
           .footer-bloc {
